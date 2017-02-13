@@ -1,3 +1,8 @@
+
+
+# Dependencies : pandas
+# Install pandas with : pip install pandas
+
 import pandas as pd
 import glob
 from os.path import basename, dirname, join
@@ -35,8 +40,9 @@ def get_full_date_and_convert_to_csv(input_file_dir, output_file_dir):
 
 
 if __name__ == "__main__":
-    # data_dir1 = '/home/warnier/Works/opensmartmesh/data/01'
-    # data_dir2 = '/home/warnier/Works/opensmartmesh/data/02'
+    #
+    #
+    # python extract_rax_txt.py input_dir output dir
 
     import sys
 
